@@ -1,6 +1,6 @@
 # Sensei  先生
 
-**Observe. Learn. Guide.**
+**Observe. Learn. Improve.**
 
 Sensei is a development intelligence platform for AI-assisted coding. It watches your coding sessions, learns your team's patterns and conventions, and feeds that knowledge back to your AI assistant — so it gets it right the first time.
 
