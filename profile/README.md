@@ -16,13 +16,13 @@ Your AI assistant queries sensei through MCP to ground its suggestions in your a
 
 | Repo | What | Stack |
 |------|------|-------|
-| [daemon](https://github.com/sensei-hq/daemon) | Core engine — indexer, CLI, MCP server | Rust |
-| [app](https://github.com/sensei-hq/app) | Desktop observatory | Tauri + SvelteKit |
-| [gateway](https://github.com/sensei-hq/gateway) | Multi-provider LLM router | Rust |
-| [marketplace](https://github.com/sensei-hq/marketplace) | Skills, commands, agents, hooks | Claude Code plugin |
-| [homebrew-tap](https://github.com/sensei-hq/homebrew-tap) | macOS distribution | Homebrew |
-| [releases](https://github.com/sensei-hq/releases) | Binary releases | CI artifacts |
-| [corpus](https://github.com/sensei-hq/corpus) | Benchmark test repos | Multi-language |
+| [daemon](https://github.com/sensei-hq/daemon) | Indexes your codebase, detects patterns, serves intelligence to AI assistants | Rust |
+| [app](https://github.com/sensei-hq/app) | See how AI builds your code — sessions, patterns, quality trends | Tauri + SvelteKit |
+| [gateway](https://github.com/sensei-hq/gateway) | Route AI requests across providers with fallbacks and cost control | Rust |
+| [marketplace](https://github.com/sensei-hq/marketplace) | Plugin that teaches AI assistants your codebase conventions | Claude Code plugin |
+| [homebrew-tap](https://github.com/sensei-hq/homebrew-tap) | `brew install sensei` — one command to get started | Homebrew |
+| [releases](https://github.com/sensei-hq/releases) | Pre-built binaries for macOS, Linux, and Windows | CI artifacts |
+| [corpus](https://github.com/sensei-hq/corpus) | Test repos for measuring indexing and coaching accuracy | Multi-language |
 
 ### Status
 
