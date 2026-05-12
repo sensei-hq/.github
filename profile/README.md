@@ -12,24 +12,20 @@ A background daemon indexes your codebase — files, symbols, relationships, pat
 
 Your AI assistant queries sensei through MCP to ground its suggestions in your actual codebase — not guesses from training data.
 
-### What's in this org
+### Repos
 
 | Repo | What | Stack |
 |------|------|-------|
-| [daemon](https://github.com/sensei-hq/daemon) | Indexes your codebase, detects patterns, serves intelligence to AI assistants | Rust |
-| [app](https://github.com/sensei-hq/app) | See how AI builds your code — sessions, patterns, quality trends | Tauri + SvelteKit |
-| [gateway](https://github.com/sensei-hq/gateway) | Route AI requests across providers with fallbacks and cost control | Rust |
+| [sensei](https://github.com/sensei-hq/sensei) | **Monorepo** — daemon, desktop app, CLI, MCP server, gateway, website | Rust + Tauri + SvelteKit |
 | [marketplace](https://github.com/sensei-hq/marketplace) | Plugin that teaches AI assistants your codebase conventions | Claude Code plugin |
 | [homebrew-tap](https://github.com/sensei-hq/homebrew-tap) | `brew install sensei` — one command to get started | Homebrew |
+| [dbd](https://github.com/sensei-hq/dbd) | Schema-first database tool — DDL, migrations, seeding | Rust |
 | [corpus](https://github.com/sensei-hq/corpus) | Test repos for measuring indexing and coaching accuracy | Multi-language |
 
-### Status
-
-Sensei is in active development and not yet released. The daemon indexes code and serves an MCP interface, the desktop app structure is in place, and the marketplace plugin defines the full workflow. We're working toward a first public release.
-
-### Install (when available)
+### Install (macOS)
 
 ```sh
-brew install sensei-hq/tap/sensei
-sensei init
+brew tap sensei-hq/tap
+brew install sensei-hq/tap/sensei     # CLI + daemon
+brew install sensei-hq/tap/senseihq   # Desktop app
 ```
