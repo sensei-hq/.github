@@ -1,31 +1,47 @@
-# Sensei  先生
+# Sensei HQ  先生
 
-**Observe. Learn. Improve.**
+**An independent studio of developer tools.**
 
-Sensei is a development intelligence platform for AI-assisted coding. It watches your coding sessions, learns your team's patterns and conventions, and feeds that knowledge back to your AI assistant — so it gets it right the first time.
+Each tool has a single job and a clear edge. Local-first wherever it makes sense, quiet by default,
+and the libraries our products stand on are open source. → [sensei-hq.com](https://sensei-hq.com)
 
 ---
 
-### How it works
+### Products — things you open
 
-A background daemon indexes your codebase — files, symbols, relationships, patterns. As you work with AI coding assistants, sensei tracks what works, catches what drifts, and builds a living model of how your project is built.
+| | Repo | What | Stack |
+|---|------|------|-------|
+| 観 | [sensei](https://github.com/sensei-hq/sensei) | **Sensei** — a quiet companion for AI-assisted work: observes your sessions and surfaces the patterns you are too close to see. Daemon, desktop app, CLI, MCP server and the Dōjō team console | Rust · Tauri · SvelteKit |
+| 門 | [torii](https://github.com/sensei-hq/torii) | **Torii** — every model, one governed doorway: an AI gateway for teams, with budgets, fallback chains and guardrails | Rust · SvelteKit |
 
-Your AI assistant queries sensei through MCP to ground its suggestions in your actual codebase — not guesses from training data.
+### Libraries — things you build on
 
-### Repos
+| | Repo | What | Stack |
+|---|------|------|-------|
+| 関 | [gateway](https://github.com/sensei-hq/gateway) | Talk to every model provider through one interface — fallback chains, circuit breaker, budgets | Rust |
+| 構 | [dbd](https://github.com/sensei-hq/dbd) | Schema as SQL files: dependency order, migrations, data loading, docs and deploys across Postgres, Supabase, SQLite and Convex | Rust |
+| 速 | [rokkit](https://github.com/sensei-hq/rokkit) | Composable, data-driven, themeable UI components | Svelte 5 |
+| 守 | [kavach](https://github.com/sensei-hq/kavach) | Drop-in authentication for SvelteKit — sessions, providers, route protection | TypeScript |
 
-| Repo | What | Stack |
-|------|------|-------|
-| [sensei](https://github.com/sensei-hq/sensei) | **Monorepo** — daemon, desktop app, CLI, MCP server, gateway, website | Rust + Tauri + SvelteKit |
-| [marketplace](https://github.com/sensei-hq/marketplace) | Plugin that teaches AI assistants your codebase conventions | Claude Code plugin |
-| [homebrew-tap](https://github.com/sensei-hq/homebrew-tap) | `brew install sensei` — one command to get started | Homebrew |
-| [dbd](https://github.com/sensei-hq/dbd) | Schema-first database tool — DDL, migrations, seeding | Rust |
-| [corpus](https://github.com/sensei-hq/corpus) | Test repos for measuring indexing and coaching accuracy | Multi-language |
+### Still taking shape
 
-### Install (macOS)
+| | Repo | What | |
+|---|------|------|---|
+| 形 | [katachi](https://github.com/sensei-hq/katachi) | From a photo to a cut — snap a sketch, say what you want, get measured, cut-ready parts | Preview · [try it](https://katachi.sensei-hq.com) |
+| 型 | [kata](https://github.com/sensei-hq/kata) | Training that meets you where you are — AI-programmed workouts that adapt to your progress | Incubating |
+
+### Around the tools
+
+| Repo | What |
+|------|------|
+| [marketplace](https://github.com/sensei-hq/marketplace) | The Sensei plugin that teaches AI assistants your codebase conventions |
+| [homebrew-tap](https://github.com/sensei-hq/homebrew-tap) | `brew install sensei` — one command to get started |
+| [website](https://github.com/sensei-hq/website) | [sensei-hq.com](https://sensei-hq.com) |
+
+### Install Sensei (macOS)
 
 ```sh
 brew tap sensei-hq/tap
-brew install sensei-hq/tap/sensei     # CLI + daemon
-brew install sensei-hq/tap/senseihq   # Desktop app
+brew install sensei-hq/tap/sensei          # CLI + daemon + MCP server
+brew install --cask sensei-hq/tap/senseihq # Desktop app
 ```
