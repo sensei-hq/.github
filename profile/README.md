@@ -22,11 +22,11 @@ Sensei and Torii are proprietary. Sensei's binaries and public issue tracker liv
 
 | | Repo | What | Docs |
 |---|---|---|---|
-| 関 | [gateway](https://github.com/sensei-hq/gateway) | Talk to every model provider through one Rust interface — fallback chains, circuit breaker, budgets | [gateway.sensei-hq.org](https://gateway.sensei-hq.org) |
-| 構 | [dbd](https://github.com/sensei-hq/dbd) | Schema as SQL files: dependency order, migrations, data loading, docs and deploys across Postgres, Supabase, SQLite and Convex | [dbd.sensei-hq.org](https://dbd.sensei-hq.org) |
-| 速 | [rokkit](https://github.com/sensei-hq/rokkit) | Composable, data-driven, themeable UI components for Svelte 5 | [rokkit.sensei-hq.org](https://rokkit.sensei-hq.org) |
-| 守 | [kavach](https://github.com/sensei-hq/kavach) | Drop-in authentication for SvelteKit — sessions, providers, route protection | [kavach.sensei-hq.org](https://kavach.sensei-hq.org) |
-| 絵 | [emaki](https://github.com/sensei-hq/emaki) | Illustrated stories for the web: articles, a story player and narrated video from one set of JSON scenes | [emaki.sensei-hq.org](https://emaki.sensei-hq.org) |
+| 関 | [gateway](https://github.com/sensei-hq/gateway) | Talk to every model provider through one Rust interface — fallback chains, circuit breaker, budgets | [gateway.sensei-hq.org](https://gateway.sensei-hq.org) · [get started](https://sensei-hq.org/projects/gateway) |
+| 構 | [dbd](https://github.com/sensei-hq/dbd) | Schema as SQL files: dependency order, migrations, data loading, docs and deploys across Postgres, Supabase, SQLite and Convex | [dbd.sensei-hq.org](https://dbd.sensei-hq.org) · [get started](https://sensei-hq.org/projects/dbd) |
+| 速 | [rokkit](https://github.com/sensei-hq/rokkit) | Composable, data-driven, themeable UI components for Svelte 5 | [rokkit.sensei-hq.org](https://rokkit.sensei-hq.org) · [get started](https://sensei-hq.org/projects/rokkit) |
+| 守 | [kavach](https://github.com/sensei-hq/kavach) | Drop-in authentication for SvelteKit — sessions, providers, route protection | [kavach.sensei-hq.org](https://kavach.sensei-hq.org) · [get started](https://sensei-hq.org/projects/kavach) |
+| 絵 | [emaki](https://github.com/sensei-hq/emaki) | Illustrated stories for the web: articles, a story player and narrated video from one set of JSON scenes | [emaki.sensei-hq.org](https://emaki.sensei-hq.org) · [get started](https://sensei-hq.org/projects/emaki) |
 
 ### Around the tools
 
