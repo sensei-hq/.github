@@ -12,8 +12,8 @@ underneath them. Quiet tools, honest claims, your data where you choose to keep 
 
 | | Product | What | |
 |---|---|---|---|
-| 観 | **Sensei** | Your team gets better at working with AI: a local-first desktop app that surfaces the patterns in your AI-assisted work, and a Dōjō that shares lessons and rules across the team | [sensei-hq.com/sensei](https://sensei-hq.com/sensei) |
-| 門 | **Torii** | One gate to every model your organization uses: Torii for every member, Seiki for routing, budgets and audit | [sensei-hq.com/torii](https://sensei-hq.com/torii-seiki) |
+| 観 | **Sensei** | Your team gets better at working with AI: a local-first desktop app that surfaces the patterns in your AI-assisted work, and a Dōjō that shares lessons and rules across the team | [sensei-hq.com/sensei](https://sensei-hq.com/sensei) · [pricing](https://sensei-hq.com/sensei/pricing) |
+| 門 | **Torii** | One gate to every model your organization uses: Torii for every member, Seiki for routing, budgets and audit | [sensei-hq.com/torii](https://sensei-hq.com/torii) · [pricing](https://sensei-hq.com/torii/pricing) |
 
 Sensei and Torii are proprietary. Sensei's binaries and public issue tracker live in
 [sensei-releases](https://github.com/sensei-hq/sensei-releases).
